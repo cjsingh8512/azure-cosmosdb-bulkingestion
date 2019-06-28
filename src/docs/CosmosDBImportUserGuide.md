@@ -14,8 +14,8 @@
 
    b. Standard collection for distributing load across multiple workers and for storing the migration status.
 
-[!NOTE]
-Only account creation is mandatory and rest you can provide in the settings file, tool generates the collections if they don't exist. For help reach out cosmosdbasks@microsoft.com
+> [!NOTE]
+> Only account creation is mandatory, rest you can provide in the settings file, tool generates the collections if they don't exist. For help reach out cosmosdbasks@microsoft.com
  ​
 
 ## Tool Setup:
@@ -72,8 +72,8 @@ nohup java -Xmx8G -jar jsonstore-cosmosdb-import-1.0-SNAPSHOT-jar-with-dependenc
 Example: nohup java -Xmx8G -jar jsonstore-cosmosdb-import-1.0-SNAPSHOT-jar-with-dependencies.jar -conf settings.properties -ingestionFrom cosmosdb >run.out 2>&1 &
 ```
 
-[!NOTE]
-Please run the same command on other VMs if you plan to distribute work across multiple workers.
+> [!NOTE]
+> Please run the same command on other VMs if you plan to distribute work across multiple workers.
 
 If you want to test the data import, we support the following input stores:
 
